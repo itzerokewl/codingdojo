@@ -20,7 +20,7 @@ a {
 ul {
     color: lightgray;
 }
-#var {
+.var {
     color: #7692f8;
     display: inline-block;
 }
