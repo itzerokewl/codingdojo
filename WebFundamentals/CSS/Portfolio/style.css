@@ -1,0 +1,71 @@
+body {
+    background: #4a363e;
+    width: 970px;
+}
+h2 {
+    display: inline-block;
+}
+h3 {
+    margin-left: 550px;
+    display: inline-block;
+}
+.header {
+    background: #f6f6f6;
+}
+.image {
+    border: 5px;
+    border-style: solid;
+    border-color: gray;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.aboutme {
+    width: 545px;
+    height: 250px;
+    background-color: #ece4ec;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+h4 {
+    background: #92919c;
+    color: white;
+}
+.callout {
+    width: 315px;
+    height: 450px;
+    background: #e4d9e3;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.techbox {
+    width: 315px;
+    background: #e4d9e3;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+button {
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+.footer {
+    background: #ece4ec;
+}
+a {
+    color: black;
+    text-decoration: underline;
+
+}
