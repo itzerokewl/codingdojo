@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(69, 69, 209);
+}
+.top {
+    color: white;
+    text-align: right;
+}
+    .top .topleft {
+        display: inline-block;
+        border-right-style: solid;
+        border-right-width: 2px;
+        border-color: black;
+        padding-right: 2px; 
+    }
+    .top .topright {
+        display: inline-block;
+    }
+header {
+
+}
+    header .python {
+        display: inline-block;
+    }
+    header .searchbox {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 800px;
+        margin-top: 5px;
+        background-color: rgb(56, 54, 54);
+        padding: 20px;
+    }
+.navmenu {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+    .navmenu ul li {
+        display: inline-block;
+        background: rgb(88, 88, 228);
+        font-size: 24px;
+        padding: 15px;
+    }
+        .navmenu ul li a {
+            color: white;
+            text-decoration: none;
+        }
+.sidemenu {
+    margin-left: 200px;
+    display: inline-block;
+    vertical-align: top;
+
+}   
+    .sidemenu ul li a {
+        color: white;
+        text-align: center;
+    }
+.text {
+    display: inline-block;
+    width: 600px;
+    margin-left: 60px;
+    text-align: center;
+}
+p {
+    color: white;
+} 
+h4 {
+    color: goldenrod;
+}        
