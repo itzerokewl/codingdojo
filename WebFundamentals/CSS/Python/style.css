@@ -5,6 +5,9 @@ body {
     color: white;
     text-align: right;
 }
+a {
+    color: goldenrod;
+}
     .top .topleft {
         display: inline-block;
         border-right-style: solid;
@@ -16,7 +19,7 @@ body {
         display: inline-block;
     }
 header {
-
+    padding: 0px;
 }
     header .python {
         display: inline-block;
@@ -31,6 +34,7 @@ header {
     }
 .navmenu {
     text-align: center;
+    background: rgb(88, 88, 228);
     width: 100%;
     display: inline-block;
 }
@@ -60,9 +64,53 @@ header {
     margin-left: 60px;
     text-align: center;
 }
-p {
-    color: white;
-} 
+    .text p {
+        color: white;
+    } 
 h4 {
     color: goldenrod;
 }        
+.infobox {
+    background: white;
+}
+    .infobox a {
+        color: blue;
+    }
+.infoboxleft {
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 300px;
+    padding: 5px;
+}
+.infoboxright {
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 5px;
+}
+hr {
+    height: 3px;
+    background-color: blue;
+}
+footer {
+    display: inline-block;
+    text-align: center;
+}
+    footer ul {
+        text-align: center;
+        margin-left: 250px;
+    }
+        footer ul li {
+            display: inline-block;
+            margin: 0px 30px;
+        }
+            footer ul li a {
+                color: rgb(135, 135, 226);
+                }
+    footer p {
+        color: rgb(135, 135, 226);
+        margin-left: 300px; 
+    }
