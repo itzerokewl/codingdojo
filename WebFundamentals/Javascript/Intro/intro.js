@@ -1,0 +1,21 @@
+var awesomenumber = 42;
+var lamenumber = 16;
+var lonliestnumber = -1;
+var friendliestnumber = 2;
+var firstname = "Charlie";
+var lastname = "Hall";
+var greeting = "Mr.";
+var itshot = false;
+var itscold = true;
+var ohno = "It's the song that never ends!";
+
+console.log("The Awesome Number:", awesomenumber);
+console.log("The lamest of numbers:", lamenumber);
+console.log("The Lonliest Number:", lonliestnumber);
+console.log("The friendliest Number:", friendliestnumber);
+console.log("What is your first name?", firstname);
+console.log("What is your last name?", lastname);
+console.log("And how should I greet you?", greeting);
+console.log("Is it hot outside?", itshot);
+console.log("is it cold outside?", itscold);
+console.log("Oh no its", ohno);
