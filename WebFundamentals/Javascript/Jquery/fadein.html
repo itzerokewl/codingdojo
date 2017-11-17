@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    .colorchange {
+        color: red;
+    }
+    </style>
+    <script src="jquery-3.2.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#tiger').hide();
+            $('h1').click(function(){
+                $('#tiger').fadeIn("slow");
+            });
+            $('h2').click(function(){
+                $('#tiger').fadeOut("slow");
+            });
+            $('p').addclass("colorchange");
+            
+
+
+        });
+    </script>
+    <title>fadeIn</title>
+</head>
+<body>
+    <h1>Click on me to FadeIn</h1>
+    <img id="tiger" src="tiger.jpg" alt="tiger">
+    <h2>Click on me to make the tiger dissapear!</h2>
+    <p>Some text 1</p>
+    <p>Some text 2</p>
+    <p>Some text 3</p>
+    <p>Some text 4</p>
+    <p>Some text 5</p>
+</body>
+</html>

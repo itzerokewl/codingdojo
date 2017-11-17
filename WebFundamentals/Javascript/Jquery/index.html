@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        div {
+            background: #de9a44;
+            margin: 3px;
+            width: 80px;
+            height: 40px;
+            display: none;
+            float: left;
+        }
+      </style>
+    <title>Document</title>
+    <script src="jquery-3.2.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('a').click(function(){
+                alert('Your are leaving this site');
+            })
+            $('p').click(function(){
+                $('p').hide("slow");
+            })
+            $('button').click(function(){
+                $('p').show("fast");
+            })
+            $('li').click(function(){
+                $('li').toggle("slow");
+            })
+            $('h3').click(function () {
+                if ( $( "div:first" ).is( ":hidden" ) ) {
+                  $( "div" ).slideDown( "slow" );
+                } else {
+                  $( "div" ).slideUp("slow");;
+                }
+              });
+            $('h2').click(function(){
+              $('img').slideToggle("slow");
+            })
+            $('h4').click(function(){
+                $('h5:hidden').fadeIn("slow");
+            })
+        })
+    
+    </script>
+</head>
+<body>
+ <a href="#">Click on me to see what happens!</a>   
+ <p>Here is some text and if you click me I will hide (maybe)</p>
+ <button>Click me to Show Text</button>
+ <ul>
+    <li>Toggle Me</li>
+    <li>Toggle Me</li>
+    <li>Toggle Me</li>
+    <li>Toggle Me</li>
+    <li>Toggle Me</li>
+ </ul>
+ <h3>Click me to show some boxes and then again to hide the boxes</h3>
+ <div></div>
+ <div></div>
+ <div></div>
+ <br />
+<br />
+ <h2>Click me for SlideToggle</h2>
+ <img src="tiger.jpg" alt="Shotokan Tiger"><br />
+ <h4>Something to fadein</h4>
+ <h5>I'm a NINJA!</h5>
+</body>
+</html>
